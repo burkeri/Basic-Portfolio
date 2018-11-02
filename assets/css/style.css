@@ -1,3 +1,39 @@
 body {
-    background-image: url("/Users/richelleburke/Documents/UCF/UCF_Local/Week_1/Homework/Due_11.2/Solved/Recommended/Basic-Portfolio/assets/images/houndstooth-pattern.png")
+    margin: 0;
+    padding: 0;
+    background-image: url("/Users/richelleburke/Documents/UCF/UCF_Local/Week_1/Homework/Due_11.2/Solved/Recommended/Basic-Portfolio/assets/images/pipes.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.menu {
+    background: #ffffff;
+    border-bottom: 2px solid #dddddd;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+    line-height: 80px;
+}
+
+h1 {
+    display: inline;
+    padding: 80px 30px 27px 30px;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+}
+
+nav {
+    display: inline;
+    margin: 0;
+    float: right;
+    word-spacing: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
 }
