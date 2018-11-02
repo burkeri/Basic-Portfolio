@@ -90,6 +90,7 @@ li:last-child {
     height: 50px;
     background: #666666;
     border-top: 7px solid #4aaaa5;
+    z-index: 100;
 }
 
 footer {
@@ -151,7 +152,13 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     margin: 0;
+    margin-top: 145px;
+    background: #4aaaa5;
+    box-sizing: border-box;
+    width: 250px;
+    padding: 15px;
     position: absolute;
+    z-index: 1;
 }
 
 /****************************************/
