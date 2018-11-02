@@ -16,6 +16,7 @@ h2 {
 .menu {
     background: #ffffff;
     border-bottom: 2px solid #dddddd;
+    height: 80px;
 }
 
 header {
@@ -82,7 +83,7 @@ footer {
 
 /*************** ABOUT ME ***************/
 
-.content {
+.content, .wrapper, .c-form {
     background: #ffffff;
     border: .5px solid #dddddd;
     width: 960px;
