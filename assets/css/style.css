@@ -6,9 +6,24 @@ body {
     color: #777777;
 }
 
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+.content, .wrapper, .c-form {
+    background: #ffffff;
+    border: .5px solid #dddddd;
+    width: 960px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+/* Clearfix */
+.content:after, .wrapper:after, .c-form:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
 }
 
 /**************** NAV ****************/
@@ -34,6 +49,11 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
 nav {
     float: right;
     height: 82px;
@@ -53,7 +73,7 @@ li:last-child {
     border-right: none;
 }
 
-a {
+.navlink {
     text-decoration: none;
     color: #777777;
     padding: 10px;
@@ -83,22 +103,11 @@ footer {
 
 /*************** ABOUT ME ***************/
 
-.content, .wrapper, .c-form {
-    background: #ffffff;
-    border: .5px solid #dddddd;
-    width: 960px;
-    padding: 30px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 120px;
-}
-
 hr {
     border: 1px solid #dddddd;
 }
 
-img {
+#profile {
     float: left;
     margin: 10px 20px 20px 0px;
 }
@@ -112,14 +121,37 @@ p {
 
 /*************** PORTFOLIO **************/
 
-.wrapper {
-    background: #ffffff;
-    width: 960px;
-    padding: 30px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 120px;
+.grid {
+    width: 600px;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+#item {
+    width: 250px;
+    height: 200px;
+    background: #777777;
+    color: white;
+    text-align: center;
+    float: left;
+    margin: 30px;
+    margin-left: 0;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0;
+    position: absolute;
 }
 
 /****************************************/
