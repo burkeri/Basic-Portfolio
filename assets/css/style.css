@@ -37,3 +37,19 @@ a {
     text-decoration: none;
     color: #777777;
 }
+
+.ftr {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #666666;
+    border-top: 7px solid #4aaaa5;
+}
+
+footer {
+    text-align: center;
+    color: #dddddd;
+    font-size: 10px;
+    padding-top: 30px;
+}
