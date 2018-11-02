@@ -58,31 +58,6 @@ a {
     padding: 10px;
 }
 
-
-/* ul {
-    list-style-type: none;
-    display: inline;
-    float: right;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-} */
-
-/* nav {
-    float: right;
-    display: inline;
-    margin: 0;
-    word-spacing: 10px;
-}
-
-nav:last-child {
-    border-right: none;
-} */
-
-
 /****************************************/
 
 /**************** FOOTER ****************/
@@ -108,7 +83,42 @@ footer {
 /*************** ABOUT ME ***************/
 
 .content {
+    background: #ffffff;
+    border: .5px solid #dddddd;
+    width: 960px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
 
+hr {
+    border: 1px solid #dddddd;
+}
+
+img {
+    float: left;
+    margin: 10px 20px 20px 0px;
+}
+
+p {
+    display: inline;
+    line-height: 2;
+}
+
+/****************************************/
+
+/*************** PORTFOLIO **************/
+
+.wrapper {
+    background: #ffffff;
+    width: 960px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
 }
 
 /****************************************/
